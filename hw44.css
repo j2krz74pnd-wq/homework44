@@ -227,3 +227,36 @@ header{
     font-weight: 500;
     color: #888;
 }
+.download-section{
+    padding-top: 193px;
+}
+.apps{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.app{
+    height: 84px;
+    padding: 0 26px;
+    border: 1px solid #5a6584;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.app-icon{
+    font-size: 36px;
+}
+.app-small{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+}
+.app-big{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+
