@@ -259,5 +259,80 @@ header{
     line-height: 20px;
 
 }
+.pricing-section{
+    padding-top: 239px;
+}
+.prices{
+    max-width: 1048px;
+    margin: 96px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.price-card{
+    width: 508px;
+    height: 242px;
+    padding: 48px 0 0 48px;
+    border-radius: 4px;
+    background-color: #fafcfb;
+    color: #222;
+    display: flex;
+}
+.price-info{
+    width: 230px;
+}
+.price-name{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #23a6ee;
+}
+.price-desc{
+    margin-top: 16px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #777;
+}
+.price-box{
+    margin-left: 18px;
+    width: 162px;
+}
+.price-amount{
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+}
+.price-num{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #23a6ee;
+}
+.price-cur{
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #23a6ee;
+}
+.price-month{
+    margin-top: 2px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #999;
+}
+.price-btn{
+    width: 162px;
+    height: 38px;
+    margin-top: 28px;
+    border: none;
+    border-radius: 4px;
+    background-color: #23a6ee;
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
 
 
