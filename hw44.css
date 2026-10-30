@@ -134,3 +134,96 @@ header{
     left: 537px;
     top: 96px;
 }
+.sec-title{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+}
+.sec-sub{
+    margin-top: 9px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #596079;
+}
+.strategy-section{
+    padding-top: 89px;
+}
+.services{
+    max-width: 1048px;
+    margin: 68px auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px 29px;
+}
+.service{
+    height: 140px;
+    padding: 36px 22px 0;
+    border: 1px solid #9aa2b8;
+    display: flex;
+    gap: 18px;
+}
+.service-icon{
+    font-size: 36px;
+    line-height: 40px;
+    color: #2da0e8;
+}
+.service-title{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+}
+.service-desc{
+    margin-top: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
+.clients-section{
+    padding-top: 151px;
+}
+.client-card{
+    width: 746px;
+    height: 362px;
+    margin: 80px auto 0;
+    padding-top: 40px;
+    background-color: white;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.client-avatar{
+    width: 96px;
+    height: 96px;
+}
+.client-text{
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    color: #777;
+}
+.client-stars{
+    margin-top: 14px;
+    display: flex;
+    gap: 4px;
+    font-size: 18px;
+    color: #f5c518;
+}
+.client-name{
+    margin-top: 18px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+.client-job{
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #888;
+}
