@@ -357,5 +357,79 @@ header{
     height: 265px;
     margin-top: -15px;
 }
+.appoint-section{
+    margin-top: 154px;
+    padding-bottom: 132px;
+    background: linear-gradient(to bottom, #252b43 0px, #252b43 326px, #fafafa 326px);
+}
+.appoint-card{
+    width: 878px;
+    height: 610px;
+    margin: auto;
+    background-color: white;
+    color: #222;
+    display: flex;
+}
+.appoint-img{
+    width: 267px;
+    height: 610px;
+}
+.appoint-img2{
+    display: none;
+}
+.appoint-form{
+    width: 611px;
+    padding: 28px 41px 0 51px;
+}
+.appoint-title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+}
+.appoint-label{
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.appoint-input{
+    width: 100%;
+    height: 52px;
+    margin-top: 8px;
+    padding-left: 20px;
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    font-size: 13px;
+    color: #222;
+    outline: none;
+}
+.appoint-select{
+    height: 52px;
+    margin-top: 8px;
+    padding: 0 20px;
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #999;
+}
+.appoint-btn{
+    width: 100%;
+    height: 52px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: #23a6ee;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
 
 
