@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    background-color: #252b43;
+    color: white;
+}
+
+
+header{
+    height: 88px;
+}
+.header-in{
+    max-width: 1048px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-size: 22px;
+    font-weight: 700;
+}
+.nav{
+    margin-left: 88px;
+    display: flex;
+    gap: 24px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.login{
+    margin-left: auto;
+    font-size: 14px;
+    font-weight: 600;
+}
+.member-btn{
+    width: 214px;
+    height: 54px;
+    margin-left: 46px;
+    border: none;
+    border-radius: 6px;
+    background-color: #23a6ee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
