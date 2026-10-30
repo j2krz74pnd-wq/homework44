@@ -333,6 +333,29 @@ header{
     color: white;
     cursor: pointer;
 }
-
+.branches-section{
+    max-width: 1048px;
+    margin: 261px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.branches-info{
+    width: 460px;
+}
+.branches-title{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 58px;
+}
+.branches-text{
+    margin-top: 13px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.branches-map{
+    width: 408px;
+    height: 265px;
+    margin-top: -15px;
+}
 
 
